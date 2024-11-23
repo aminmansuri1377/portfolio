@@ -172,7 +172,7 @@ const Navbar = () => {
                 Let&#39;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a
+                {/* <a
                   href="https://www.linkedin.com/in/clint-briley-50056920a/"
                   target="_blank"
                   rel="noreferrer"
@@ -180,8 +180,8 @@ const Navbar = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   href="https://github.com/fireclint"
                   target="_blank"
                   rel="noreferrer"
@@ -189,7 +189,7 @@ const Navbar = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
                   </div>
-                </a>
+                </a> */}
                 <Link href="/#contact">
                   <div
                     onClick={() => setNav(!nav)}
