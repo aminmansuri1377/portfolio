@@ -20,7 +20,7 @@ import Recoil from "../public/assets/skills/recoil.png";
 import Trpc from "../public/assets/skills/trpc.png";
 import Type from "../public/assets/skills/type.png";
 import Photo from "../public/assets/skills/photo.png";
-import Corel from "../public/assets/skills/corel.png";
+import Corel from "../public/assets/skills/Corel.png";
 import Lottie from "../public/assets/skills/lottie.png";
 import Auth from "../public/assets/skills/auth.png";
 
