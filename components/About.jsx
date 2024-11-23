@@ -25,7 +25,7 @@ const About = () => {
             I started web developement in late 2021 managing multiple e-commerce
             apps with next.js. I have experience working directly with clients
             and taking mock wireframes all the way to deployed applications. In
-            my spare time I run Code Commerce. on this year I've leaned 3js,
+            my spare time I run Code Commerce. on this year I have leaned 3js,
             prisma OPM, tRPC.
           </p>
           <Link href="/#projects">
