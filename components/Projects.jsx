@@ -4,6 +4,8 @@ import React from "react";
 import propertyImg from "../public/assets/projects/shoplonland.jpg";
 import cryptoImg from "../public/assets/projects/mag.jpg";
 import netflixImg from "../public/assets/projects/planet.jpg";
+import zinamatv from "../public/assets/projects/zeenamatv.png";
+import rentta from "../public/assets/projects/rentta.png";
 import twitchImg from "../public/assets/projects/twitch.jpg";
 import ProjectItem from "./ProjectItem";
 
@@ -32,6 +34,18 @@ const Projects = () => {
             title="gamePlanet"
             backgroundImg={netflixImg}
             projectUrl="/gamePlanet"
+            tech="Next JS"
+          />
+          <ProjectItem
+            title="zinamatv"
+            backgroundImg={zinamatv}
+            projectUrl="/zinamatv"
+            tech="Next JS"
+          />
+          <ProjectItem
+            title="rentta"
+            backgroundImg={rentta}
+            projectUrl="/rentta"
             tech="Next JS"
           />
           {/* <ProjectItem

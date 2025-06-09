@@ -74,10 +74,10 @@ const Contact = () => {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <h2>phone Number : </h2>
-              <h2>09109393315</h2>
-              <h2>email : </h2>
-              <h2>aminmansuri77z99@gmail.com</h2>
+              <h2 className=" text-xl">phone Number : </h2>
+              <h2 className=" text-xl">09109393315</h2>
+              <h2 className=" text-xl">email : </h2>
+              <h2 className=" text-xl">aminmansuri77z99@gmail.com</h2>
             </div>
           </div>
         </div>

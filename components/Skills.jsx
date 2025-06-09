@@ -22,6 +22,8 @@ import Type from "../public/assets/skills/type.png";
 import Photo from "../public/assets/skills/photo.png";
 import Corel from "../public/assets/skills/Corel.png";
 import Lottie from "../public/assets/skills/lottie.png";
+import Leaflet from "../public/assets/skills/Leaflet.png";
+import Vercel from "../public/assets/skills/Vercel.png";
 import Auth from "../public/assets/skills/auth.png";
 
 const Skills = () => {
@@ -234,6 +236,26 @@ const Skills = () => {
               <div className="flex flex-col items-center justify-center">
                 <h3>tRPC</h3>
               </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className=" justify-center items-center">
+              <div className="m-auto">
+                <Image src={Leaflet} alt="/" />
+              </div>
+              {/* <div className="flex flex-col items-center justify-center">
+                <h3>leaflet</h3>
+              </div> */}
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className=" justify-center items-center">
+              <div className="m-auto">
+                <Image src={Vercel} alt="/" />
+              </div>
+              {/* <div className="flex flex-col items-center justify-center">
+                <h3>vercel</h3>
+              </div> */}
             </div>
           </div>
 

@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import netflixImg from "../public/assets/projects/gplanet.jpg";
+import propertyImg from "../public/assets/projects/zeenamatv.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const gamePlanet = () => {
+const zinamatv = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +13,16 @@ const gamePlanet = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={netflixImg}
+          src={propertyImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">gamePlanet</h2>
-          <h3>Next JS / Prisma / 3js / next-auth / tRPC/ vercel</h3>
+          <h2 className="py-2">zinamatv</h2>
+          <h3> zinamatv main page & all zinamatv dashboard</h3>
+          <h3>
+            Next JS / Tailwind / Recoil / TypeScript/ react / material UI/
+            javaspript/ video player
+          </h3>
         </div>
       </div>
 
@@ -27,27 +31,21 @@ const gamePlanet = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in Next JS and Prisma as Full-stack app.
-            This app features user authentication with next-auth and the
-            Supabase cloud storage for database. This application is a renting
-            game consols and have a complete dashboard panel for creating and
-            editing products and managing the orders and users. It features 3js
-            for showing products and tRPC for API managing also having multi
-            language selection for being international .
+            zinamatv is a VOD project with custom video player , i create and
+            develop all the manager dashboard with material UI and react, the
+            dashboard support 3 type of users and it is optimized for manager,
+            employees and video publishers, there you can setting and change all
+            the main website sections and manage the users and movies.
           </p>
           {/* <a
-            href="https://github.com/fireclint/netflix-react-tailwind"
+            href="https://github.com/fireclint/property-finder"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a> */}
-          <a
-            href="https://game-planet-one.vercel.app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-8 py-2 mt-4">LINK</button>
+          <a href="https://zinamatv.com/" target="_blank" rel="noreferrer">
+            <button className="px-8 py-2 mt-4">Link</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
@@ -61,31 +59,25 @@ const gamePlanet = () => {
                 <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> typeScript
+                <RiRadioButtonFill className="pr-1" /> TypeScript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Prisma
+                <RiRadioButtonFill className="pr-1" /> Recoil
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> tRPC
+                <RiRadioButtonFill className="pr-1" /> material UI
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Axios
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> react
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> next-auth
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> react-Hook-form
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> 3js
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> i18next
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Supabase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> vercel
+                <RiRadioButtonFill className="pr-1" /> git
               </p>
             </div>
           </div>
@@ -98,4 +90,4 @@ const gamePlanet = () => {
   );
 };
 
-export default gamePlanet;
+export default zinamatv;
