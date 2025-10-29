@@ -99,15 +99,29 @@ const Resumee = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
+            <span className="font-bold italic">
+              Self Projects and Freelancer
+            </span>
+          </p>
+          <p className="py-1 italic">Front End Web Developer (2023 - 2024)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Build apps with Prisma and tRPC also work with three.js .</li>
+            <li>
+              debug , testing and deploying front-end projects in real domains.
+            </li>
+          </ul>
+        </div>
+        <div className="py-6">
+          <p className="italic">
             <span className="font-bold italic">Batriders</span>
           </p>
-          <p className="py-1 italic">Front End Web Developer (2022 - 2024)</p>
+          <p className="py-1 italic">Front End Web Developer (2021 - 2023)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Wep App development by using Next.js and react technologies .
             </li>
             <li>debug , testing and deploying front-end codes.</li>
-            <li></li>
+            <li>use Typescript and work with Material UI.</li>
           </ul>
         </div>
 
@@ -118,7 +132,7 @@ const Resumee = () => {
           </p>
           <p className="py-1 italic">front-end developer</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>In 2021 for nine month as junior and intern developer.</li>
+            <li>In 2020 for nine month as junior and intern developer.</li>
           </ul>
         </div>
 
