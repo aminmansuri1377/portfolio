@@ -14,12 +14,12 @@ const About = () => {
           <h2 className="py-4">Who Am I?</h2>
           <p className="py-2 text-gray-600">
             I am Mid-level Frontend Developer skilled in creating visually
-            stunning and responsive web apps using HTML, CSS, and JavaScript.
-            Proficient in React, Next.js (12, 13, 14), and Material-UI, with
-            expertise in Tailwind and Bootstrap for styling. Effective
-            communicator with backend teams, experienced in Postman, Swagger,
-            Git, GitLab, CI/CD. now i can write my codes with TypeScript and use
-            Recoil as state manager in my projects
+            stunning and responsive web apps using JavaScript, HTML, CSS.
+            Proficient in React, Next.js (12, 13, 14), Angular , and
+            Material-UI, with expertise in Tailwind and Bootstrap for styling.
+            Effective communicator with backend teams, experienced in Postman,
+            Swagger, Git, GitLab, CI/CD. now i can write my codes with
+            TypeScript and use Recoil as state manager in my projects
           </p>
           <p className="py-2 text-gray-600">
             I started web developement in late 2021 managing multiple e-commerce
